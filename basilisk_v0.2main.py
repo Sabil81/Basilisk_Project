@@ -49,7 +49,7 @@ def livepscan():
         outp1.delete("1.0",tk.END)
         outp1.insert(tk.END,"Invalid count number.Please enter a non-zero integer.")
 
-main_txt = tk.Label(root, text="BASILISK v0.1", font=("Arial",25,"bold"), fg="#0CCA4A",bg="#47494d")
+main_txt = tk.Label(root, text="BASILISK v0.2", font=("Arial",25,"bold"), fg="#0CCA4A",bg="#47494d")
 txt1 = tk.Label(root, text="NETWORK SCANNER:", font=("Arial", 12, "bold"), fg="#C8D3D5", bg="#47494d")
 but1 = tk.Button(root, text="QUCIK SCAN", font=("Arial",10,"bold"), bg="#A4B8C4",command=pscan)
 but2 = tk.Button(root, text="AUTO SCAN", font=("Arial",10,"bold"), bg="#A4B8C4",command=livepscan)
